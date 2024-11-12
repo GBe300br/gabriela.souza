@@ -1,0 +1,5 @@
+# Projeto Star Wars API Testes
+
+Este projeto realiza testes automatizados na API Star Wars (SWAPI) utilizando Jest e GitHub Actions. A API fornece dados do universo Star Wars, e nossos testes cobrem requisições para planetas, filmes, naves e outros recursos. Cada teste verifica respostas específicas da API e está configurado para rodar automaticamente em workflows no GitHub Actions.
+
+Para cada recurso da API, criamos um teste separado para verificar a resposta e os dados retornados. Além disso, também testamos uma rota inexistente para simular erros e garantir que o sistema responda corretamente. Os testes são organizados de forma modular, e cada teste está configurado em um workflow distinto no GitHub Actions, com o objetivo de facilitar a automação e a verificação de cada recurso.
